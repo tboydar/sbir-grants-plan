@@ -929,7 +929,9 @@ export default function ProjectDetails() {
                                                         credentials: 'include',
                                                     });
                                                     if (!response.ok) throw new Error('Failed');
-                                                    const reader = response.body!.getReader();
+                                                    const responseBody = response.body;
+                                                    if (!responseBody) throw new Error('Streaming response body unavailable');
+                                                    const reader = responseBody.getReader();
                                                     const decoder = new TextDecoder();
                                                     let buffer = '';
                                                     while (true) {
