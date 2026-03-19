@@ -1,20 +1,41 @@
-# 🚀 SBIR Skill - AI 驅動的 SBIR 申請神器
+# 🚀 台灣研究計畫 AI 撰寫神器 — SBIR + 國科會
 
 <div align="center">
 
 ![SBIR Skill](https://img.shields.io/badge/SBIR-Skill-brightgreen?style=for-the-badge)
+![NSTC Skill](https://img.shields.io/badge/NSTC-Skill-blue?style=for-the-badge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Files](https://img.shields.io/badge/Files-84+-blue.svg?style=for-the-badge)]()
-[![Words](https://img.shields.io/badge/Words-170K+-orange.svg?style=for-the-badge)]()
+[![Files](https://img.shields.io/badge/Files-110+-blue.svg?style=for-the-badge)]()
+[![Words](https://img.shields.io/badge/Words-220K+-orange.svg?style=for-the-badge)]()
 [![Completion](https://img.shields.io/badge/Completion-99.5%25-success.svg?style=for-the-badge)]()
-[![FAQ](https://img.shields.io/badge/FAQ-122-green.svg?style=for-the-badge)]()
+[![FAQ](https://img.shields.io/badge/FAQ-150+-green.svg?style=for-the-badge)]()
 [![Tools](https://img.shields.io/badge/MCP_Tools-11-purple.svg?style=for-the-badge)]()
 
-**設計目標：協助您更快、更完整地完成 SBIR 申請**
+**設計目標：協助您更快、更完整地完成 SBIR 與國科會計畫申請**
 
-[🎯 一鍵安裝](#-一鍵安裝) • [✨ 核心功能](#-核心功能) • [📝 自動生成計畫書](#-互動式計畫書生成器) • [📖 使用指南](#-使用指南) • [🌐 SaaS 網頁版](#-saas-網頁版)
+[🎯 一鍵安裝](#-一鍵安裝) • [✨ 核心功能](#-核心功能) • [📝 自動生成計畫書](#-互動式計畫書生成器) • [📖 使用指南](#-使用指南) • [🌐 SaaS 網頁版](#-saas-網頁版) • [🎓 國科會計畫](#-國科會專題研究計畫-new)
 
 </div>
+
+---
+
+## 🎓 國科會專題研究計畫 (NEW!)
+
+> **全新上線！** 除了 SBIR，我們現在也支援國科會（原科技部）專題研究計畫的撰寫輔助。
+
+| 功能 | 說明 |
+|------|------|
+| 🎯 **計畫類型指引** | 專題研究、產學合作、新進人員、整合型、國際合作、大專生研究 |
+| 📝 **方法論指南** | 研究動機、文獻探討、研究方法、預期成果、經費編列 |
+| 📋 **計畫書範本** | 專題研究計畫書 + 產學合作計畫書完整範本 |
+| ✅ **檢核清單** | 申請前 / 撰寫中 / 送件前三階段檢核 |
+| ❓ **FAQ** | 資格、流程、經費、審查、執行與結案 |
+| 🔍 **審查標準解讀** | 評分項目、權重、審查委員觀點 |
+| ⚖️ **NSTC vs SBIR** | 兩種計畫的完整差異比較 |
+
+**國科會 vs SBIR 一句話區別**：國科會看「學術原創性」，SBIR 看「商業化潛力」。
+
+👉 完整內容請見 [`nstc-grants/`](nstc-grants/README.md)
 
 ---
 
@@ -368,22 +389,34 @@ Claude：[使用 submission_checklist.md]
 
 ## 📊 專案統計
 
+### SBIR 知識庫 (`sbir-grants/`)
+
 | 指標 | 數量 |
 |------|------|
-| 📁 總檔案數 | **77+** |
-| 📝 總字數 | **160,000+** |
-| ❓ FAQ 數量 | **101 個** |
+| 📁 檔案數 | **84+** |
+| 📝 字數 | **170,000+** |
+| ❓ FAQ | **122 個** |
 | 📚 方法論 | **6 個完整框架** |
-| ✍️ 撰寫指南 | **12 個專題** |
 | ✅ 檢核項目 | **200+** |
-| 📊 案例研究 | **6 個詳細案例** |
-| 🎯 完整度 | **98%** |
+| 📊 案例研究 | **7 個詳細案例** |
 
-**涵蓋完整申請流程**：
+### 國科會知識庫 (`nstc-grants/`) — NEW
+
+| 指標 | 數量 |
+|------|------|
+| 📁 檔案數 | **25+** |
+| 📝 字數 | **50,000+** |
+| ❓ FAQ | **46+ 個** |
+| 📚 方法論 | **5 個完整框架** |
+| ✅ 檢核項目 | **100+** |
+| 📋 計畫書範本 | **2 套** |
+
+**涵蓋完整申請流程（雙軌並行）**：
 ```
-申請準備 → 計畫撰寫 → 簡報審查 → 執行管理 → 結案報告
-    ↓          ↓          ↓          ↓          ↓
-  ✅ FAQ    ✅ 技巧    ✅ 簡報    ✅ 指南    ✅ 範本
+        SBIR                              國科會
+申請準備 → 計畫撰寫 → 簡報審查      研究規劃 → 計畫撰寫 → 書面審查
+    ↓          ↓          ↓              ↓          ↓          ↓
+  ✅ FAQ    ✅ 技巧    ✅ 簡報        ✅ FAQ    ✅ 方法論  ✅ 審查標準
 ```
 
 ---
@@ -446,25 +479,50 @@ MIT License - 詳見 [LICENSE](LICENSE)
 
 ---
 
+## 📂 Monorepo 結構
+
+```
+sbir-grants-plan/
+├── sbir-grants/          # 🏢 SBIR 經濟部中小企業創新研發計畫
+│   ├── references/       #    方法論、審查標準、策略指引
+│   ├── faq/              #    122 個常見問題
+│   ├── templates/        #    Phase 1/2 計畫書範本
+│   ├── checklists/       #    5 階段檢核清單
+│   ├── examples/         #    案例研究與審查觀點
+│   └── mcp-server/       #    MCP Server 原始碼
+├── nstc-grants/          # 🎓 國科會專題研究計畫 (NEW!)
+│   ├── references/       #    方法論、審查標準、經費規範
+│   ├── faq/              #    46+ 個常見問題
+│   ├── templates/        #    專題研究/產學合作範本
+│   ├── checklists/       #    3 階段檢核清單
+│   ├── examples/         #    常見錯誤與審查觀點
+│   └── quick_start/      #    新手入門指南
+├── saas/                 # 🌐 SaaS Web 平台 (sbir.thinkwithblack.com)
+├── shared_domain/        # 🔗 共用領域設定檔 (JSON)
+└── planning/             # 📋 開發規劃文件
+```
+
+---
+
 ## 🙏 致謝
 
-感謝所有為台灣中小企業創新努力的人們。
+感謝所有為台灣學術研究與中小企業創新努力的人們。
 
 ---
 
 <div align="center">
 
-## 🚀 開始使用 SBIR Skill
+## 🚀 開始使用
 
-**讓 AI 協助您成功申請 SBIR 補助**
+**讓 AI 協助您成功申請 SBIR 補助與國科會研究計畫**
 
-[⬇️ 立即下載](https://github.com/backtrue/sbir-grants/archive/refs/heads/main.zip) • [📖 查看文件](GETTING_STARTED.md) • [💬 問題回報](https://github.com/backtrue/sbir-grants/issues)
+[⬇️ 立即下載](https://github.com/backtrue/sbir-grants/archive/refs/heads/main.zip) • [📖 SBIR 指南](sbir-grants/README.md) • [🎓 國科會指南](nstc-grants/README.md) • [💬 問題回報](https://github.com/backtrue/sbir-grants/issues)
 
 ---
 
 **⭐ 如果這個專案對您有幫助，請給我們一個 Star！**
 
-Made with ❤️ for Taiwan SMEs
+Made with ❤️ for Taiwan Researchers & SMEs
 
 </div>
 
